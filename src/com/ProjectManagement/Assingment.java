@@ -14,8 +14,8 @@ public class Assingment {
 
 		prof.assignStudents(stud);
 		// if-else check
-		if(stud.isAssigned==false)
-		stud.assignProject(proj);
+		if (stud.isAssigned == false)
+			stud.assignProject(proj);
 		else
 			System.out.println("This student is already assigned to a project");
 
